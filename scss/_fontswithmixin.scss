@@ -1,0 +1,35 @@
+@import 'variable';
+
+// Open Sans font
+@mixin OpenSansReg {
+    font-family: $font-family-1;
+    font-weight: 400;
+}
+
+@mixin OpenSansMedium {
+    font-family: $font-family-1;
+    font-weight: 500;
+}
+
+@mixin OpenSansBold {
+    font-family: $font-family-1;
+    font-weight: 700;
+}
+
+
+// Raleway font
+
+@mixin RalewayReg {
+    font-family: $font-family-2;
+    font-weight: 400;
+}
+
+@mixin RalewayMedium {
+    font-family: $font-family-2;
+    font-weight: 500;
+}
+
+@mixin RalewayBold {
+    font-family: $font-family-2;
+    font-weight: 700;
+}
